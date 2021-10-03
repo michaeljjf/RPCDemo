@@ -7,6 +7,8 @@ import java.io.Serializable;
  * @date 2021/10/3
  */
 public class Person implements Serializable {
+    private static final long serialVersionUID = 8902198745769557470L;
+
     private Integer id;
     private String name;
 
